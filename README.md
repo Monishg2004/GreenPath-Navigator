@@ -1,97 +1,152 @@
-# GreenPath Navigator  - Dynamic Route Optimization for India
+Here’s your revised README with the specified video and image paths integrated correctly:
 
-## Project Overview
-GreenPath Navigator  is a comprehensive software solution designed to address the pressing challenges faced by the transportation and supply industry regarding carbon emissions and environmental sustainability. This project provides a dynamic route optimization tool for India using Streamlit, TomTom API for route calculation.
-The transportation and supply industry faces significant challenges related to carbon emissions and environmental sustainability. To address these issues, there is a need for a software solution that empowers individuals and organizations to calculate and mitigate their CO2 emissions effectively. 
+---
 
-## Team Members
-**Name 1**: Monish G  
-**Name 2**: Bavya C  
-**Country of Residence**: India  
-**College Name**: Sri Eshwar College of Engineering  
-**Graduation Year**: 2026  
-**Experience Level**: Student
 
-## Features
+## ❓ **Problem Statement**  
 
-- **Optimal Route Calculation**: Uses TomTom's routing API to calculate the fastest route between two locations.
-- **Air Quality and Weather Data**: Fetches AQI and weather data from the AQICN API to adjust emissions calculations based on environmental conditions.
-- **Emission Calculation**: Estimates CO2 emissions based on the selected vehicle type and weather conditions.
-- **Interactive Map**: Displays the optimal route on an interactive map using Folium.
-- **Dynamic Inputs**: Users can either enter locations or coordinates for the route.
-- **Awareness and Education**: User-friendly interface that educates about environmental impact.
-- **Global Emission Insights**: Access to comprehensive emissions data across regions.
-- **Feature Comparison**: Compare different transportation options and their environmental impact.
+The transportation and supply industry in India faces significant challenges:  
 
-## Problem Statement
+1. **📉 Lack of Awareness**: Limited understanding of transportation's environmental impact.  
+2. **🧮 Emission Calculation Complexity**: Difficulty in quantifying emissions for various modes.  
+3. **🚛 Shipment Emissions Uncertainty**: Challenges in accurate carbon footprint estimations.  
+4. **❓ Lack of Guidance**: Insufficient direction on reducing emissions effectively.  
+5. **🌐 Limited Insights**: Poor access to global emissions data for better planning.  
+6. **⚖️ Feature Comparison Challenges**: Difficulty in comparing eco-friendly transport options.  
 
-The transportation and supply industry faces significant challenges related to carbon emissions and environmental sustainability:
+# 🌍 **GreenPath Navigator**  
+**Dynamic Route Optimization for India**  
 
-1. **Lack of Awareness**: Limited understanding of environmental impact from daily commutes and shipments.
-2. **Difficulty in Calculating Emissions**: Complex process of quantifying CO2 emissions from various transport modes.
-3. **Uncertainty in Shipment Emissions**: Challenges in accurate carbon footprint estimation for businesses.
-4. **Lack of Guidance**: Need for clear direction on emission reduction strategies.
-5. **Limited Global Emission Insights**: Insufficient access to comprehensive emissions data.
-6. **Difficulty in Comparing Features**: Challenge in comparing environmental impact of different transport options.
+---
 
-## Tech Stack
+## 📖 **Project Overview**  
+GreenPath Navigator is a comprehensive software solution designed to address the pressing challenges of carbon emissions and environmental sustainability in India's transportation and supply industries.  
 
-- **Python**: Core application development
-- **Streamlit**: Responsive web application creation
-- **Streamlit Community Cloud**: Application deployment
-- **Python Libraries**: sklearn, matplotlib for data visualization
-- **GitHub**: Version control and code hosting
+This platform combines **Streamlit** for user interaction, **TomTom API** for route optimization, and **AQICN API** for real-time environmental data to empower individuals and organizations to make eco-conscious transportation decisions.  
 
-## Prerequisites
+---
 
-- Python 3.x
-- Streamlit
-- Folium
-- Geopy
-- Requests
-- TomTom API key
-- AQICN API key
+## 👥 **Team Members**  
 
-## Installation Guide
+- **Name 1:** Monish G  
+- **Name 2:** Bavya C  
+- **Country of Residence:** India  
+- **College Name:** Sri Eshwar College of Engineering  
+- **Graduation Year:** 2026  
+- **Experience Level:** Student  
 
-1. Clone the repository:
-```bash
-git clone <repository_url>
-```
+---
 
-2. Navigate to project directory:
-```bash
-cd <project_directory>
-```
+## 🚀 **Features**  
 
-3. Install required dependencies:
-```bash
-pip install -r requirements.txt
-```
+1. **🛣️ Optimal Route Calculation**: Uses TomTom's API to determine the fastest and most efficient routes.  
+2. **🌫️ Air Quality & Weather Data**: Integrates AQICN API for accurate environmental conditions.  
+3. **♻️ Emission Calculation**: Estimates CO2 emissions based on vehicle type and conditions.  
+4. **🗺️ Interactive Maps**: Displays routes on interactive maps using Folium.  
+5. **📍 Dynamic Inputs**: Supports location names or GPS coordinates.  
+6. **📚 Awareness & Education**: Educates users on environmental impacts.  
+7. **🌍 Global Insights**: Provides emissions data across regions.  
+8. **🔍 Feature Comparison**: Compares environmental impact of different transportation modes.  
 
-4. Run the application:
-```bash
-streamlit run home.py
-```
+---
 
-For Linux users, first run:
-```bash
-sudo apt-get update
-sudo apt-get install build-essential libssl-dev ca-certificates libasound2 wget
-```
 
-## Social Impact
+---
 
-1. **Increased Environmental Awareness**: Promotes conscious decision-making about transportation choices.
-2. **Eco-Friendly Behavior Change**: Encourages adoption of sustainable transport options.
-3. **Support for Sustainable Business Practices**: Helps companies integrate sustainability into operations.
-4. **Global Environmental Collaboration**: Fosters shared responsibility for environmental protection.
-5. **Data-Driven Policy Decisions**: Provides insights for environmental regulations.
+## 💻 **Tech Stack**  
 
-## Future Impact
+- **Backend**: Python  
+- **Frontend**: Streamlit  
+- **APIs**: TomTom API, AQICN API  
+- **Deployment**: Streamlit Community Cloud  
+- **Libraries**: sklearn, matplotlib, Folium  
+- **Version Control**: GitHub  
 
-1. **Integration with Smart Transportation Systems**: Real-time data integration for optimal routing.
-2. **Electric Vehicle Adoption**: Support for sustainable vehicle transitions.
-3. **Incentive Programs**: Potential carbon credit systems for eco-friendly choices.
-4. **Supply Chain Optimization**: Advanced algorithms for emission reduction.
-5. **Continuous Data Improvement**: Ongoing partnerships for accurate emissions data.
+---
+
+## ⚙️ **Prerequisites**  
+
+- Python 3.x  
+- Required Python libraries (in `requirements.txt`)  
+- TomTom API key  
+- AQICN API key  
+
+---
+
+## 🛠️ **Installation Guide**  
+
+1. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/Monishg2004/GreenPath-Navigator
+   ```  
+
+2. **Navigate to the project directory**:  
+   ```bash
+   cd GreenPath-Navigator
+   ```  
+
+3. **Install dependencies**:  
+   ```bash
+   pip install -r requirements.txt
+   ```  
+
+4. **Run the application**:  
+   ```bash
+   streamlit run home.py
+   ```  
+
+For **Linux users**, first ensure these dependencies are installed:  
+   ```bash
+   sudo apt-get update
+   sudo apt-get install build-essential libssl-dev ca-certificates libasound2 wget
+   ```  
+
+---
+
+## 🌟 **Social Impact**  
+
+1. **📈 Increased Awareness**: Educates users on environmental impact.  
+2. **♻️ Eco-Friendly Habits**: Promotes sustainable transport decisions.  
+3. **🌐 Global Collaboration**: Encourages collective action for sustainability.  
+4. **📊 Data-Driven Decisions**: Provides actionable insights for policymakers.  
+5. **🚚 Business Sustainability**: Helps businesses optimize their carbon footprint.  
+
+---
+
+## 🔮 **Future Enhancements**  
+
+1. **🤖 Machine Learning**: Integration for predictive route optimization.  
+2. **⚡ EV Support**: Enhancements for electric vehicle networks.  
+3. **🪙 Carbon Credits**: Implementation of incentive programs.  
+4. **📊 Business Dashboards**: Advanced analytics for corporate users.  
+5. **🌐 Market Expansion**: Scaling to other countries with similar challenges.  
+
+---
+
+## 📷 **Screenshots and Video**  
+
+### **Application Screenshots**  
+_Example screenshots showcasing features like route optimization, interactive maps, and emission analysis._  
+
+![Carbon Graph](images/Carbon%20Graph.jpg)  
+*Detailed Emission Calculations*  
+
+![Carbon Graph](images/Carbon%20Graph.jpg)  
+*Interactive Map View*  
+
+![Carbon Graph](images/Carbon%20Graph.jpg)  
+*Real-Time AQI Data*  
+
+![Carbon Graph](images/Carbon%20Graph.jpg)  
+*User-Friendly Interface*  
+
+---
+
+### **Demo Video**  
+_Check out our project in action!_  
+
+[![Watch the Video](https://img.youtube.com/vi/z048xe74yZ4/0.jpg)](https://youtu.be/z048xe74yZ4)
+  
+
+---
+
