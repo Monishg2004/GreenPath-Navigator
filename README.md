@@ -2,18 +2,6 @@ Here’s your revised README with the specified video and image paths integrated
 
 ---
 
-
-## ❓ **Problem Statement**  
-
-The transportation and supply industry in India faces significant challenges:  
-
-1. **📉 Lack of Awareness**: Limited understanding of transportation's environmental impact.  
-2. **🧮 Emission Calculation Complexity**: Difficulty in quantifying emissions for various modes.  
-3. **🚛 Shipment Emissions Uncertainty**: Challenges in accurate carbon footprint estimations.  
-4. **❓ Lack of Guidance**: Insufficient direction on reducing emissions effectively.  
-5. **🌐 Limited Insights**: Poor access to global emissions data for better planning.  
-6. **⚖️ Feature Comparison Challenges**: Difficulty in comparing eco-friendly transport options.  
-
 # 🌍 **GreenPath Navigator**  
 **Dynamic Route Optimization for India**  
 
@@ -50,6 +38,16 @@ This platform combines **Streamlit** for user interaction, **TomTom API** for ro
 
 ---
 
+## ❓ **Problem Statement**  
+
+The transportation and supply industry in India faces significant challenges:  
+
+1. **📉 Lack of Awareness**: Limited understanding of transportation's environmental impact.  
+2. **🧮 Emission Calculation Complexity**: Difficulty in quantifying emissions for various modes.  
+3. **🚛 Shipment Emissions Uncertainty**: Challenges in accurate carbon footprint estimations.  
+4. **❓ Lack of Guidance**: Insufficient direction on reducing emissions effectively.  
+5. **🌐 Limited Insights**: Poor access to global emissions data for better planning.  
+6. **⚖️ Feature Comparison Challenges**: Difficulty in comparing eco-friendly transport options.  
 
 ---
 
@@ -128,17 +126,20 @@ For **Linux users**, first ensure these dependencies are installed:
 ### **Application Screenshots**  
 _Example screenshots showcasing features like route optimization, interactive maps, and emission analysis._  
 
-![Carbon Graph](images/Carbon%20Graph.jpg)  
-*Detailed Emission Calculations*  
+![Carbon Graph](images\home.jpg)  
+*Home*  
 
-![Carbon Graph](images/Carbon%20Graph.jpg)  
-*Interactive Map View*  
+![Carbon Graph](images\CommuteInsight.jpg)  
+*CommuteInsight*  
 
-![Carbon Graph](images/Carbon%20Graph.jpg)  
-*Real-Time AQI Data*  
+![Carbon Graph](images\DynamicRoute.jpg)  
+*DynamicRoute*  
 
-![Carbon Graph](images/Carbon%20Graph.jpg)  
-*User-Friendly Interface*  
+![Carbon Graph](images\TransSustain.jpg)  
+*TransSustain*  
+
+![Carbon Graph](images\CarbonGraph.jpg)  
+*CarbonGraph*  
 
 ---
 
