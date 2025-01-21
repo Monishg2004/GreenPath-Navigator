@@ -1,16 +1,29 @@
-Here’s your revised README with the specified video and image paths integrated correctly:
 
 ---
 
-# 🌍 **GreenPath Navigator**  
-**Dynamic Route Optimization for India**  
+## ❓ **Problem Statement**  
 
----
+The transportation and supply industry in India faces significant challenges:  
+
+1. **📉 Lack of Awareness**: Limited understanding of transportation's environmental impact.  
+2. **🧮 Emission Calculation Complexity**: Difficulty in quantifying emissions for various modes.  
+3. **🚛 Shipment Emissions Uncertainty**: Challenges in accurate carbon footprint estimations.  
+4. **❓ Lack of Guidance**: Insufficient direction on reducing emissions effectively.  
+5. **🌐 Limited Insights**: Poor access to global emissions data for better planning.  
+6. **⚖️ Feature Comparison Challenges**: Difficulty in comparing eco-friendly transport options.  
+
+
 
 ## 📖 **Project Overview**  
 GreenPath Navigator is a comprehensive software solution designed to address the pressing challenges of carbon emissions and environmental sustainability in India's transportation and supply industries.  
 
 This platform combines **Streamlit** for user interaction, **TomTom API** for route optimization, and **AQICN API** for real-time environmental data to empower individuals and organizations to make eco-conscious transportation decisions.  
+
+
+# 🌍 **GreenPath Navigator**  
+**Dynamic Route Optimization for India**  
+
+---
 
 ---
 
@@ -37,17 +50,6 @@ This platform combines **Streamlit** for user interaction, **TomTom API** for ro
 8. **🔍 Feature Comparison**: Compares environmental impact of different transportation modes.  
 
 ---
-
-## ❓ **Problem Statement**  
-
-The transportation and supply industry in India faces significant challenges:  
-
-1. **📉 Lack of Awareness**: Limited understanding of transportation's environmental impact.  
-2. **🧮 Emission Calculation Complexity**: Difficulty in quantifying emissions for various modes.  
-3. **🚛 Shipment Emissions Uncertainty**: Challenges in accurate carbon footprint estimations.  
-4. **❓ Lack of Guidance**: Insufficient direction on reducing emissions effectively.  
-5. **🌐 Limited Insights**: Poor access to global emissions data for better planning.  
-6. **⚖️ Feature Comparison Challenges**: Difficulty in comparing eco-friendly transport options.  
 
 ---
 
